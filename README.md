@@ -1,1 +1,3 @@
 # VFTEP
+
+Clone the entire final submission branch into MATLAB. Run the MLX file. Section 0 is the title. Section 1 imports the data and passes it through an LPF. Section 2 crops signals to be used in correlation filtering. Section 3 averages the cropped signals to form an AP correlation filter. Section 4 calculates the remaining AP shapes. Section 5 is the event detection model. You must input the name of the file you wish to process before running that section. Section 7 is the generative model. You must input the stimulus number and times while running the code. Sections 8 and beyond are all plots used in this report. Make sure all code is run from the proper directory as issued in GitHub. Also, ensure you have the cropped_data folder before running to avoid errors.
